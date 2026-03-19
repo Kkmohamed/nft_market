@@ -5,6 +5,7 @@ import 'package:nft_market/core/resources/app_assets.dart';
 import 'package:nft_market/core/resources/app_colors.dart';
 import 'package:nft_market/core/resources/app_sizes.dart';
 import 'package:nft_market/core/resources/app_strings.dart';
+import 'package:nft_market/core/resources/route_manager.dart';
 
 class OnboardingBody extends StatelessWidget {
   const OnboardingBody({super.key});
@@ -83,9 +84,7 @@ class OnboardingBody extends StatelessWidget {
 }
 
 class GetStrartedButton extends StatelessWidget {
-  const GetStrartedButton({
-    super.key,
-  });
+  const GetStrartedButton({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -94,13 +93,13 @@ class GetStrartedButton extends StatelessWidget {
         fixedSize: Size(AppSizes.w198, AppSizes.h45),
         backgroundColor: Colors.transparent,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(
-            AppSizes.r20,
-          ),
+          borderRadius: BorderRadius.circular(AppSizes.r20),
         ),
       ),
-    
-      onPressed: () {},
+
+      onPressed: () {
+        Navigator.of(context).pushNamed(RouteNames.kHomeRoute);
+      },
       child: Text(
         AppStrings.getStarted,
         style: TextStyle(
@@ -114,9 +113,7 @@ class GetStrartedButton extends StatelessWidget {
 }
 
 class WelcomeMessage extends StatelessWidget {
-  const WelcomeMessage({
-    super.key,
-  });
+  const WelcomeMessage({super.key});
 
   @override
   Widget build(BuildContext context) {

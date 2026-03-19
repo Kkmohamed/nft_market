@@ -5,4 +5,9 @@ class AppStrings {
   static const String onboardingSubtitle2 =
       'You can buy and sell the NFTs of the best\n artists in the world.';
   static const String getStarted = 'Get started now';
+  static const String artCategory = 'Art';
+  static const String musicCategory = 'Music';
+  static const String virtualWorldsCategory = 'Virtual Worlds';
+  
+
 }
