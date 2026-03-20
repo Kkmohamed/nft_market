@@ -8,6 +8,5 @@ class AppStrings {
   static const String artCategory = 'Art';
   static const String musicCategory = 'Music';
   static const String virtualWorldsCategory = 'Virtual Worlds';
-  
-
+  static const String stats = 'Stats';
 }

@@ -17,4 +17,7 @@ class AppAssets {
   static const String topSeller1 = 'assets/images/home/topSeller1.png';
   static const String topSeller2 = 'assets/images/home/topSeller2.png';
   static const String topSeller3 = 'assets/images/home/topSeller3.png';
+
+  // state
+  static const String dots = 'assets/images/state/dots.svg';
 }

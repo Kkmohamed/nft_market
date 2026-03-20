@@ -13,9 +13,11 @@ class AppSizes {
   //Height
   static double h40 = 40.h;
   static double h45 = 45.h;
+  static double h50 = 50.h;
   static double h64 = 64.41.h;
   static double h70 = 70.h;
   static double h90 = 90.h;
+  static double h122 = 122.h;
   static double h140 = 140.h;
   static double h167 = 167.h;
   static double h194 = 194.h;
@@ -23,6 +25,8 @@ class AppSizes {
 
   // width
   static double w40 = 40.w;
+  static double w45 = 45.w;
+  static double w50 = 50.w;
   static double w70 = 70.w;
   static double w100 = 100.w;
   static double w140 = 140.w;
@@ -40,13 +44,16 @@ class AppSizes {
   static double ph120 = 120.h;
   // paddingWidth
   static double pw5 = 5.w;
+  static double pw8 = 8.w;
   static double pw9 = 9.w;
   static double pw10 = 10.w;
   static double pw16 = 16.w;
   static double pw26 = 26.13.w;
 
   // radius
+  static double r8 = 8.r;
   static double r20 = 20.r;
+  static double r25 = 25.r;
   static double r27 = 27.r;
   static double r40 = 40.r;
   static double r45 = 45.r;
